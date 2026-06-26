@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import CallbackRequest from './components/CallbackRequest'
 import WhatsAppCTA from './components/WhatsAppCTA'
+import { Analytics } from "@vercel/analytics/next"
 
 const Home = lazy(() => import('./pages/Home'))
 const Collection = lazy(() => import('./pages/Collection'))
