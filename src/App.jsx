@@ -30,7 +30,7 @@ export default function App() {
       <ScrollTop />
       <Header />
       <AnimatePresence mode="wait">
-        <Suspense fallback={<div className="page-loader">MAS FASHION</div>}>
+        <Suspense fallback={<div className="page-loader">MAS FASHIONZ (A Unit of Zeal Groups.)</div>}>
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
             <Route path="/collections/:slug?" element={<Collection />} />

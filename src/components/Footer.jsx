@@ -28,6 +28,6 @@ export default function Footer() {
       </motion.div>
       {columns.map(([title, items], columnIndex) => <motion.div className="footer-col" key={title} {...reveal} transition={{...reveal.transition, delay: columnIndex * .07}}><h4>{title}</h4>{items.map(item => Array.isArray(item) ? <Link to={item[1]} key={item[0]}>{item[0]}</Link> : <span className="footer-detail" key={item}>{item}</span>)}</motion.div>)}
     </div>
-    <motion.div className="footer-bottom" {...reveal}><span>© 2026 MAS FASHION</span><div><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Privacy</a><a href="#">Terms</a></div></motion.div>
+    <motion.div className="footer-bottom" {...reveal}><span>© 2026 MAS FASHIONZ (A Unit of Zeal Groups.)</span><div><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Privacy</a><a href="#">Terms</a></div></motion.div>
   </footer>
 }

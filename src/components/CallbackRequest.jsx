@@ -164,7 +164,7 @@ export default function CallbackRequest() {
             <span>✓</span>
             <p className="eyebrow">Request received</p>
             <h2>We'll call you<br/><em>shortly.</em></h2>
-            <p>Thank you for contacting MAS FASHION. A uniform consultant will review your requirements and get in touch during business hours.</p>
+            <p>Thank you for contacting MAS FASHIONZ (A Unit of Zeal Groups.). A uniform consultant will review your requirements and get in touch during business hours.</p>
             <button className="callback-submit" onClick={close}>Close</button>
           </motion.div> : <>
             <div className="callback-heading">
@@ -237,7 +237,7 @@ export default function CallbackRequest() {
               </label>
               {submitError && <div className="callback-error" role="alert"><p>{submitError}</p></div>}
               <button className="callback-submit" type="submit" disabled={submitting}>{submitting ? 'Sending request…' : 'Request my call'} {!submitting && <Icon name="arrow" size={17}/>}</button>
-              <p className="callback-privacy">By submitting, you agree that MAS FASHION may contact you about this request.</p>
+              <p className="callback-privacy">By submitting, you agree that MAS FASHIONZ (A Unit of Zeal Groups.) may contact you about this request.</p>
             </form>
           </>}
         </motion.aside>

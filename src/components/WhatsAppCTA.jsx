@@ -12,7 +12,7 @@ export default function WhatsAppCTA() {
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    aria-label={`Chat with MAS FASHION on WhatsApp about ${context}`}
+    aria-label={`Chat with MAS FASHIONZ (A Unit of Zeal Groups.) on WhatsApp about ${context}`}
   >
     <span className="whatsapp-icon"><Icon name="whatsapp" size={25}/><i aria-hidden="true"/></span>
     <span className="whatsapp-copy"><strong>WhatsApp us</strong><small>Start a quick enquiry</small></span>

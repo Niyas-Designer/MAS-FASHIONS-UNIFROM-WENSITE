@@ -346,7 +346,7 @@ em { font-family:inherit; font-style:normal; font-weight:600; letter-spacing:inh
 footer { padding:0 5% 30px; background:#10110e; color:white; overflow:hidden; }
 .footer-top { display:grid; grid-template-columns:2fr repeat(4,1fr); gap:5%; padding-bottom:70px; }
 .footer-top { padding-top:80px; }
-.footer-brand .brand-logo { width:clamp(190px,15vw,245px); }
+.footer-brand .brand-logo { width:clamp(190px,15vw,245px); filter:brightness(0) invert(1); }
 .footer-lead p { max-width:300px; margin:30px 0; font-size:12px; line-height:1.7; color:rgba(255,255,255,.48); }
 .footer-email { display:inline-flex; gap:20px; align-items:center; font-size:12px; transition:color .3s ease; }
 .footer-email svg { transition:transform .35s ease; }

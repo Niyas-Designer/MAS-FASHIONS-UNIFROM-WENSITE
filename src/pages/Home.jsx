@@ -37,7 +37,7 @@ const benefits = [
 ]
 const testimonials = [
   ['“The finish, consistency and service have raised the standard of how our entire front-of-house team presents itself.”', 'Meera Shah', 'Director of Operations, Aster House'],
-  ['“MAS FASHION understood that our uniforms had to perform through long shifts without ever looking clinical.”', 'Dr. Rohan Menon', 'COO, Northfield Health'],
+  ['“MAS FASHIONZ (A Unit of Zeal Groups.) understood that our uniforms had to perform through long shifts without ever looking clinical.”', 'Dr. Rohan Menon', 'COO, Northfield Health'],
   ['“From sampling to a 2,400-piece rollout, every detail felt carefully managed.”', 'Amrita Das', 'Head of People, Meridian Group'],
 ]
 
@@ -60,7 +60,7 @@ export default function Home() {
   const [testimonial, setTestimonial] = useState(0)
 
   return <motion.main initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: .45 }}>
-    <PageSEO title="MAS FASHION | Uniform Manufacturers in Tiruppur, India" description="MAS FASHION manufactures customized corporate, school, industrial, healthcare and hospitality uniforms with branding, quality control and global delivery." />
+    <PageSEO title="MAS FASHIONZ (A Unit of Zeal Groups.) | Uniform Manufacturers in Tiruppur, India" description="MAS FASHIONZ (A Unit of Zeal Groups.) manufactures customized corporate, school, industrial, healthcare and hospitality uniforms with branding, quality control and global delivery." />
     <section className="hero" ref={hero}>
       <motion.div className="hero-bg" style={{ y: bgY }} />
       <div className="hero-shade" />
@@ -81,7 +81,7 @@ export default function Home() {
       </Reveal>
       <Reveal className="intro-side" delay={.12}>
         <p>We specialize in designing and manufacturing high-quality uniforms tailored to businesses, schools, and industrial organizations. Our expertise, production capabilities, and commitment to quality make us a trusted partner across sectors.</p>
-        <Link className="text-link" to="/about">About MAS FASHION <Icon name="arrow" size={17}/></Link>
+        <Link className="text-link" to="/about">About MAS FASHIONZ (A Unit of Zeal Groups.) <Icon name="arrow" size={17}/></Link>
       </Reveal>
     </section>
 
@@ -121,7 +121,7 @@ export default function Home() {
       <SectionHead eyebrow="Shop by profession" title={<>Designed around the<br/><em>people who wear it.</em></>} />
       <div className="profession-grid">
         {professions.map((item, i) => <Reveal className={`profession-card ${item.className || ''}`} key={item.name} delay={i * .06}>
-          <Link to="/collections/professions"><img src={item.image} style={{ objectPosition: item.pos }} loading="lazy" alt={`${item.name} wearing purpose-built MAS FASHION uniforms`}/><div className="profession-overlay"/><div className="profession-copy"><span>0{i+1}</span><h3>{item.name}</h3><Icon name="arrow"/></div></Link>
+          <Link to="/collections/professions"><img src={item.image} style={{ objectPosition: item.pos }} loading="lazy" alt={`${item.name} wearing purpose-built MAS FASHIONZ (A Unit of Zeal Groups.) uniforms`}/><div className="profession-overlay"/><div className="profession-copy"><span>0{i+1}</span><h3>{item.name}</h3><Icon name="arrow"/></div></Link>
         </Reveal>)}
       </div>
     </section>
@@ -151,7 +151,7 @@ export default function Home() {
     </section>
 
     <section className="story-section">
-      <div className="story-image"><img src="/images/hero-uniforms.png" loading="lazy" alt="MAS FASHION manufacturing atelier"/></div>
+      <div className="story-image"><img src="/images/hero-uniforms.png" loading="lazy" alt="MAS FASHIONZ (A Unit of Zeal Groups.) manufacturing atelier"/></div>
       <Reveal className="story-content">
         <span className="eyebrow">Manufacturing excellence</span>
         <h2>Consistency from concept<br/>to <em>final delivery.</em></h2>

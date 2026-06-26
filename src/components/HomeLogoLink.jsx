@@ -10,5 +10,5 @@ export default function HomeLogoLink({ className = '', children }) {
     window.scrollTo({ top: 0, behavior: reducedMotion ? 'auto' : 'smooth' })
   }
 
-  return <Link className={className} to="/" aria-label="MAS FASHION home" onClick={handleClick}>{children}</Link>
+  return <Link className={className} to="/" aria-label="MAS FASHIONZ (A Unit of Zeal Groups.) home" onClick={handleClick}>{children}</Link>
 }
