@@ -1,5 +1,5 @@
-import { lazy, Suspense, useEffect } from 'react'
-import { AnimatePresence } from 'framer-motion'
+import { lazy, Suspense, useEffect, useRef, useState } from 'react'
+import { AnimatePresence, motion } from 'framer-motion'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -11,6 +11,37 @@ const Collection = lazy(() => import('./pages/Collection'))
 const About = lazy(() => import('./pages/About'))
 const Contact = lazy(() => import('./pages/Contact'))
 const ContentPage = lazy(() => import('./pages/ContentPage'))
+
+
+function LandingPageTransition({ pathname }) {
+  const previousPath = useRef(pathname)
+  const [active, setActive] = useState(false)
+
+  useEffect(() => {
+    const cameFromLanding = previousPath.current === '/' && pathname !== '/'
+    previousPath.current = pathname
+    if (!cameFromLanding) return
+
+    setActive(true)
+    const timer = window.setTimeout(() => setActive(false), 520)
+    return () => window.clearTimeout(timer)
+  }, [pathname])
+
+  return (
+    <AnimatePresence>
+      {active && (
+        <motion.div
+          className="route-transition-overlay"
+          aria-hidden="true"
+          initial={{ opacity: 0, clipPath: 'inset(0 100% 0 0)' }}
+          animate={{ opacity: [0, 1, 1, 0], clipPath: ['inset(0 100% 0 0)', 'inset(0 0% 0 0)', 'inset(0 0% 0 0)', 'inset(0 0% 0 100%)'] }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: .52, ease: [.22, 1, .36, 1], times: [0, .28, .72, 1] }}
+        />
+      )}
+    </AnimatePresence>
+  )
+}
 
 function ScrollTop() {
   const { pathname } = useLocation()
@@ -29,6 +60,7 @@ export default function App() {
     <>
       <ScrollTop />
       <Header />
+      <LandingPageTransition pathname={location.pathname} />
       <AnimatePresence mode="wait">
         <Suspense fallback={<div className="page-loader">MAS FASHIONZ (A Unit of Zeal Groups.)</div>}>
           <Routes location={location} key={location.pathname}>

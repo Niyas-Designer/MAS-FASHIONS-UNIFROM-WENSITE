@@ -156,7 +156,7 @@ export default function CallbackRequest() {
           transition={{ duration: .48, ease: [.22, 1, .36, 1] }}
         >
           <div className="callback-top">
-            <BrandLogo compact className="callback-mark" />
+            <BrandLogo className="callback-mark" />
             <button className="callback-close" onClick={close} aria-label="Close request a call"><Icon name="close" size={27}/></button>
           </div>
 
