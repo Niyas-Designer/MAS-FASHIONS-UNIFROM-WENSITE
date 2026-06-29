@@ -14,7 +14,7 @@ const searchItems = [
   { title: 'Industries We Serve', type: 'Page', path: '/industries', keywords: 'corporate education healthcare hospitality retail industrial' },
   { title: 'Manufacturing Capabilities', type: 'Page', path: '/manufacturing', keywords: 'production pattern sample logistics garment' },
   { title: 'Quality Assurance', type: 'Page', path: '/quality', keywords: 'inspection testing audit standards' },
-  { title: 'About MAS FASHIONZ (A Unit of Zeal Groups.)', type: 'Page', path: '/about', keywords: 'company story strengths tiruppur' },
+  { title: 'About MAS FASHIONS (A Unit of Zeal Groups.)', type: 'Page', path: '/about', keywords: 'company story strengths tiruppur' },
   { title: 'Contact & Request a Quote', type: 'Page', path: '/contact', keywords: 'phone email enquiry requirements' },
 ]
 
@@ -60,7 +60,7 @@ export function SearchControl({ open, onClose }) {
   }, [query])
 
   return <AnimatePresence>
-    {open && <Overlay onClose={onClose} label="Search MAS FASHIONZ (A Unit of Zeal Groups.)" className="search-overlay">
+    {open && <Overlay onClose={onClose} label="Search MAS FASHIONS (A Unit of Zeal Groups.)" className="search-overlay">
       <div className="control-head">
         <span className="brand control-brand"><BrandLogo /></span>
         <button className="control-close" onClick={onClose} aria-label="Close search"><Icon name="close" /></button>
@@ -110,7 +110,7 @@ export function AccountControl({ open, onClose }) {
   return <AnimatePresence>
     {open && <Overlay onClose={onClose} label="Trade account" className="account-overlay">
       <div className="account-visual">
-        <div><span className="eyebrow">MAS FASHIONZ (A Unit of Zeal Groups.) trade portal</span><h2>Uniform programs,<br/><em>managed simply.</em></h2><p>Access quotations, order updates, specifications, and repeat-order support in one place.</p></div>
+        <div><span className="eyebrow">MAS FASHIONS (A Unit of Zeal Groups.) trade portal</span><h2>Uniform programs,<br/><em>managed simply.</em></h2><p>Access quotations, order updates, specifications, and repeat-order support in one place.</p></div>
       </div>
       <div className="account-panel">
         <div className="control-head">
@@ -120,7 +120,7 @@ export function AccountControl({ open, onClose }) {
         {complete ? <motion.div className="account-success" initial={{opacity:0,y:14}} animate={{opacity:1,y:0}}>
           <span>✓</span>
           <h3>{mode === 'signin' ? 'Demo sign-in complete' : 'Request received'}</h3>
-          <p>{mode === 'signin' ? 'This front-end control is ready to connect to your authentication system.' : 'Our team will contact you to set up your MAS FASHIONZ (A Unit of Zeal Groups.) trade account.'}</p>
+          <p>{mode === 'signin' ? 'This front-end control is ready to connect to your authentication system.' : 'Our team will contact you to set up your MAS FASHIONS (A Unit of Zeal Groups.) trade account.'}</p>
           <button className="btn btn-dark" onClick={onClose}>Close panel</button>
         </motion.div> : <>
           <h2>{mode === 'signin' ? 'Welcome back.' : 'Work with us.'}</h2>

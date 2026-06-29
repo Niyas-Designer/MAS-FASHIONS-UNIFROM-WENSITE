@@ -10,7 +10,7 @@ export default function Contact() {
   const [searchParams] = useSearchParams()
   const source = searchParams.get('source') || 'direct'
   return <motion.main className="contact-wrap" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
-    <PageSEO title="Contact MAS FASHIONZ (A Unit of Zeal Groups.) | Request a Uniform Manufacturing Quote" description="Contact MAS FASHIONZ (A Unit of Zeal Groups.) in Tiruppur for corporate, school, industrial, healthcare and hospitality uniform manufacturing, customization and bulk quotes." />
+    <PageSEO title="Contact MAS FASHIONS (A Unit of Zeal Groups.) | Request a Uniform Manufacturing Quote" description="Contact MAS FASHIONS (A Unit of Zeal Groups.) in Tiruppur for corporate, school, industrial, healthcare and hospitality uniform manufacturing, customization and bulk quotes." />
     <section className="contact-page">
       <section className="contact-copy">
         <span className="eyebrow">Contact us</span>
@@ -39,7 +39,7 @@ export default function Contact() {
       {[['Garment & roles','Tell us what each team or role needs to wear.'],['Estimated quantity','Include approximate totals and whether several locations are involved.'],['Branding needs','Share logo methods, names, department colors or labels required.'],['Target timeline','Mention launch, joining, academic or operational dates we should understand.']].map(([t,c],i)=><Reveal className="contact-prep-card" key={t}><span>0{i+1}</span><h3>{t}</h3><p>{c}</p></Reveal>)}
     </div></section>
 
-    <section className="contact-visual"><img src="/images/pages/contact-consultation.jpg" loading="lazy" alt="Uniform consultation at MAS FASHIONZ (A Unit of Zeal Groups.)"/><Reveal><span className="eyebrow">What happens next</span><h2>A practical conversation, not a sales script.</h2><p>We review the brief, identify missing decisions, and recommend the next step—whether that is a design discussion, fabric selection, reference review or sample development.</p></Reveal></section>
+    <section className="contact-visual"><img src="/images/pages/contact-consultation.jpg" loading="lazy" alt="Uniform consultation at MAS FASHIONS (A Unit of Zeal Groups.)"/><Reveal><span className="eyebrow">What happens next</span><h2>A practical conversation, not a sales script.</h2><p>We review the brief, identify missing decisions, and recommend the next step—whether that is a design discussion, fabric selection, reference review or sample development.</p></Reveal></section>
 
     <section className="faq-section section-pad container"><Reveal className="inner-section-head"><span className="eyebrow">Before you contact us</span><h2>Common project<br/><em>questions.</em></h2></Reveal><div className="faq-list">
       {[['How quickly will you respond?','Business enquiries are reviewed during Monday–Saturday working hours. Response timing depends on the detail and complexity of the request.'],['Do I need a finalized design?','No. You can begin with role requirements, reference images or an existing garment. Our team can help develop the specification.'],['Can I send a uniform reference image?','Yes. Use the Request a Call form or email reference images and explain which details you want to retain or change.'],['What information is needed for pricing?','Garment type, approximate quantity, fabric or performance expectations, branding, size range, delivery location and timeline all influence an accurate quotation.']].map(([q,a],i)=><Reveal className="faq-item" key={q}><span>0{i+1}</span><div><h3>{q}</h3><p>{a}</p></div></Reveal>)}

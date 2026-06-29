@@ -6,12 +6,12 @@ import { Icon } from '../components/Icons'
 
 const pages = {
   products: {
-    seo: ['Uniform Products & Custom Branding Services | MAS FASHIONZ (A Unit of Zeal Groups.)', 'Explore corporate, school, industrial, healthcare and hospitality uniforms with custom embroidery, printing and bulk manufacturing from MAS FASHIONZ (A Unit of Zeal Groups.).'],
+    seo: ['Uniform Products & Custom Branding Services | MAS FASHIONS (A Unit of Zeal Groups.)', 'Explore corporate, school, industrial, healthcare and hospitality uniforms with custom embroidery, printing and bulk manufacturing from MAS FASHIONS (A Unit of Zeal Groups.).'],
     eyebrow: 'Products & services',
     title: <>Uniform solutions<br/><em>tailored to your industry.</em></>,
     intro: 'From professional business attire to demanding industrial workwear, every range is engineered around your people, environment, brand standards, and daily performance needs.',
     image: '/images/pages/products-studio.jpg',
-    overview: ['One partner. Every uniform requirement.', 'MAS FASHIONZ (A Unit of Zeal Groups.) develops complete uniform programs rather than isolated garments. We combine fit engineering, fabric sourcing, functional detailing, branding, size management, and repeat-order planning into one accountable service.', 'Whether you need an executive capsule for a growing office, a complete school wardrobe, or certified workwear for a large production team, we build the specification around how the garment will actually be worn.'],
+    overview: ['One partner. Every uniform requirement.', 'MAS FASHIONS (A Unit of Zeal Groups.) develops complete uniform programs rather than isolated garments. We combine fit engineering, fabric sourcing, functional detailing, branding, size management, and repeat-order planning into one accountable service.', 'Whether you need an executive capsule for a growing office, a complete school wardrobe, or certified workwear for a large production team, we build the specification around how the garment will actually be worn.'],
     supportImage: '/images/embroidery-branding.webp',
     cards: [
       ['Corporate uniforms', 'Shirts, trousers, blazers, waistcoats and coordinated separates that strengthen brand presentation while remaining comfortable through long working days.'],
@@ -32,7 +32,7 @@ const pages = {
     cta: ['Planning a new uniform range?', 'Share your roles, quantities, preferred styles and timeline. We will recommend a practical route from sampling to delivery.'],
   },
   industries: {
-    seo: ['Uniform Solutions for Every Industry | MAS FASHIONZ (A Unit of Zeal Groups.)', 'Industry-specific uniforms for corporate, education, manufacturing, healthcare, hospitality, retail and service teams across India and export markets.'],
+    seo: ['Uniform Solutions for Every Industry | MAS FASHIONS (A Unit of Zeal Groups.)', 'Industry-specific uniforms for corporate, education, manufacturing, healthcare, hospitality, retail and service teams across India and export markets.'],
     eyebrow: 'Industries we serve',
     title: <>Uniform expertise for<br/><em>every working environment.</em></>,
     intro: 'Each sector places different demands on appearance, movement, safety, hygiene and durability. Our programs begin with those realities—not with a generic garment.',
@@ -54,11 +54,11 @@ const pages = {
     featureCopy: 'Good uniforms improve recognition and confidence without making the working day harder.',
     features: ['Role-appropriate functionality', 'Climate-conscious fabric choices', 'Inclusive size planning', 'Clear department identification', 'Repeat-order continuity'],
     gallery: [['/images/collections/profession-corporate.jpg', 'Corporate teams'], ['/images/collections/profession-healthcare.jpg', 'Healthcare professionals'], ['/images/collections/profession-hospitality.jpg', 'Hospitality service']],
-    faq: [['Can you support multiple departments in one organization?', 'Yes. We can create a coordinated system with different silhouettes, colors and functional details for each role while preserving one brand language.'], ['Do you recommend fabrics based on the work environment?', 'Yes. Fabric recommendations consider climate, movement, care frequency, abrasion, hygiene and the required level of formality.'], ['Can you produce safety-focused workwear?', 'We develop workwear with practical safety features such as visibility details, reinforced construction and role-specific pocketing based on the client brief.'], ['Do you serve organizations outside India?', 'Yes. MAS FASHIONZ (A Unit of Zeal Groups.) supports clients in India, the Middle East and Southeast Asia, with packing and dispatch planned around the destination.']],
+    faq: [['Can you support multiple departments in one organization?', 'Yes. We can create a coordinated system with different silhouettes, colors and functional details for each role while preserving one brand language.'], ['Do you recommend fabrics based on the work environment?', 'Yes. Fabric recommendations consider climate, movement, care frequency, abrasion, hygiene and the required level of formality.'], ['Can you produce safety-focused workwear?', 'We develop workwear with practical safety features such as visibility details, reinforced construction and role-specific pocketing based on the client brief.'], ['Do you serve organizations outside India?', 'Yes. MAS FASHIONS (A Unit of Zeal Groups.) supports clients in India, the Middle East and Southeast Asia, with packing and dispatch planned around the destination.']],
     cta: ['Tell us how your team works.', 'We will turn your operating environment, brand standards and role requirements into a clear uniform specification.'],
   },
   manufacturing: {
-    seo: ['Uniform Manufacturing Capabilities in Tiruppur | MAS FASHIONZ (A Unit of Zeal Groups.)', 'Discover the end-to-end garment manufacturing process at MAS FASHIONZ (A Unit of Zeal Groups.): development, pattern making, sampling, cutting, stitching, branding, quality control and logistics.'],
+    seo: ['Uniform Manufacturing Capabilities in Tiruppur | MAS FASHIONS (A Unit of Zeal Groups.)', 'Discover the end-to-end garment manufacturing process at MAS FASHIONS (A Unit of Zeal Groups.): development, pattern making, sampling, cutting, stitching, branding, quality control and logistics.'],
     eyebrow: 'Manufacturing capabilities',
     title: <>End-to-end<br/><em>garment production.</em></>,
     intro: 'Integrated development and manufacturing give us tighter control over quality, consistency, lead time, and the details that define a professional uniform.',
@@ -84,7 +84,7 @@ const pages = {
     cta: ['Need dependable production at scale?', 'Bring us your approved design or start with our development team. We will define the next practical manufacturing step.'],
   },
   quality: {
-    seo: ['Uniform Quality Assurance & Inspection | MAS FASHIONZ (A Unit of Zeal Groups.)', 'Learn how MAS FASHIONZ (A Unit of Zeal Groups.) controls uniform quality through material inspection, fabric testing, cutting, stitching, measurement, finishing, audit and packing checks.'],
+    seo: ['Uniform Quality Assurance & Inspection | MAS FASHIONS (A Unit of Zeal Groups.)', 'Learn how MAS FASHIONS (A Unit of Zeal Groups.) controls uniform quality through material inspection, fabric testing, cutting, stitching, measurement, finishing, audit and packing checks.'],
     eyebrow: 'Quality assurance',
     title: <>Quality at<br/><em>every stage.</em></>,
     intro: 'Quality is not a final inspection event. It is a sequence of controls that begins before fabric enters production and continues until the packed order is released.',
@@ -112,7 +112,7 @@ const pages = {
     cta: ['Your standards deserve a clear process.', 'Discuss your quality expectations, inspection requirements and performance priorities with our team.'],
   },
   clients: {
-    seo: ['Uniform Manufacturing Partner for Organizations | MAS FASHIONZ (A Unit of Zeal Groups.)', 'MAS FASHIONZ (A Unit of Zeal Groups.) supports businesses, schools, factories, hospitals, hotels and service brands with reliable uniform programs and responsive account support.'],
+    seo: ['Uniform Manufacturing Partner for Organizations | MAS FASHIONS (A Unit of Zeal Groups.)', 'MAS FASHIONS (A Unit of Zeal Groups.) supports businesses, schools, factories, hospitals, hotels and service brands with reliable uniform programs and responsive account support.'],
     eyebrow: 'Client partnerships',
     title: <>Trusted by organizations<br/><em>that cannot compromise.</em></>,
     intro: 'We support organizations that need their uniforms to arrive correctly, perform consistently, and represent the brand every day—not just at launch.',
@@ -138,12 +138,12 @@ const pages = {
     cta: ['Looking for a long-term uniform partner?', 'Tell us where the current process creates friction. We will show you how a managed program can work more clearly.'],
   },
   careers: {
-    seo: ['Careers at MAS FASHIONZ (A Unit of Zeal Groups.) | Garment Industry Jobs in Tiruppur', 'Explore careers in production, quality, merchandising, design, sales and operations at MAS FASHIONZ (A Unit of Zeal Groups.) in Tiruppur, Tamil Nadu.'],
-    eyebrow: 'Careers at MAS FASHIONZ (A Unit of Zeal Groups.)',
+    seo: ['Careers at MAS FASHIONS (A Unit of Zeal Groups.) | Garment Industry Jobs in Tiruppur', 'Explore careers in production, quality, merchandising, design, sales and operations at MAS FASHIONS (A Unit of Zeal Groups.) in Tiruppur, Tamil Nadu.'],
+    eyebrow: 'Careers at MAS FASHIONS (A Unit of Zeal Groups.)',
     title: <>Build useful skills.<br/><em>Create work that matters.</em></>,
     intro: 'Join a growing uniform manufacturing team where craftsmanship, practical thinking and dependable execution shape products worn by people across industries.',
     image: '/images/pages/careers-team.jpg',
-    overview: ['Grow with a team that values the details.', 'Uniform manufacturing brings design, engineering, planning, production, quality, customer understanding and logistics together. It rewards people who care about both the product and the process behind it.', 'At MAS FASHIONZ (A Unit of Zeal Groups.), employees learn through real responsibility, experienced colleagues and exposure to varied client requirements. We value people who communicate clearly, solve problems thoughtfully and take pride in dependable work.'],
+    overview: ['Grow with a team that values the details.', 'Uniform manufacturing brings design, engineering, planning, production, quality, customer understanding and logistics together. It rewards people who care about both the product and the process behind it.', 'At MAS FASHIONS (A Unit of Zeal Groups.), employees learn through real responsibility, experienced colleagues and exposure to varied client requirements. We value people who communicate clearly, solve problems thoughtfully and take pride in dependable work.'],
     supportImage: '/images/collections/profession-corporate.jpg',
     cards: [
       ['Production staff', 'Build technical garment skills and contribute to accurate, efficient sewing and finishing operations.'],
@@ -161,7 +161,7 @@ const pages = {
     features: ['Practical skill development', 'Supportive experienced colleagues', 'Cross-functional exposure', 'Professional accountability', 'Long-term progression potential'],
     gallery: [['/images/pages/about-team.jpg', 'Collaborative workplace'], ['/images/pages/manufacturing-cutting.jpg', 'Modern production exposure'], ['/images/pages/quality-inspection.jpg', 'Quality-focused learning']],
     faq: [['How can I apply?', 'Email your resume and preferred role to manzoor@zealgroups.in or contact the team by phone during business hours.'], ['Where are roles based?', 'Our primary operations are in Tiruppur, Tamil Nadu. Role-specific location and working arrangements are discussed during the hiring process.'], ['Do you consider early-career candidates?', 'Yes. Suitability depends on the role, but we value learning ability, responsibility, communication and genuine interest in garment manufacturing.'], ['What should production candidates include?', 'Mention your garment categories, machine or operation experience, years of work, current location and availability.']],
-    cta: ['See yourself at MAS FASHIONZ (A Unit of Zeal Groups.)?', 'Send your profile, preferred role and a short introduction. We will contact suitable candidates when an opportunity matches.'],
+    cta: ['See yourself at MAS FASHIONS (A Unit of Zeal Groups.)?', 'Send your profile, preferred role and a short introduction. We will contact suitable candidates when an opportunity matches.'],
   },
 }
 
@@ -175,7 +175,7 @@ function FAQ({ items }) {
 function CareersActions({ light = false }) {
   return <div className={`cta-actions ${light ? 'cta-actions-light' : ''}`}>
     <div>
-      <a className="btn btn-gold" href="mailto:manzoor@zealgroups.in?subject=Career enquiry at MAS FASHIONZ (A Unit of Zeal Groups.)">Email your profile <Icon name="arrow" size={17}/></a>
+      <a className="btn btn-gold" href="mailto:manzoor@zealgroups.in?subject=Career enquiry at MAS FASHIONS (A Unit of Zeal Groups.)">Email your profile <Icon name="arrow" size={17}/></a>
       <a className={`btn btn-secondary-cta ${light ? 'btn-secondary-light' : ''}`} href="tel:+919944187371">Call the careers team <Icon name="phone" size={16}/></a>
     </div>
     <small className="cta-note">Include your preferred role, experience, current location and availability</small>
@@ -189,11 +189,11 @@ export default function ContentPage({ page }) {
     <PageSEO title={data.seo[0]} description={data.seo[1]} />
     <section className="content-hero">
       <div className="content-hero-copy"><span className="eyebrow">{data.eyebrow}</span><h1>{data.title}</h1><p>{data.intro}</p>{isCareers ? <CareersActions light/> : <ConversionActions source={`${page}-hero`} light compact />}</div>
-      <div className="content-hero-image"><img src={data.image} alt={`${data.eyebrow} at MAS FASHIONZ (A Unit of Zeal Groups.)`} /></div>
+      <div className="content-hero-image"><img src={data.image} alt={`${data.eyebrow} at MAS FASHIONS (A Unit of Zeal Groups.)`} /></div>
     </section>
 
     <section className="inner-overview container section-pad">
-      <Reveal className="inner-overview-copy"><span className="eyebrow">The MAS FASHIONZ (A Unit of Zeal Groups.) approach</span><h2>{data.overview[0]}</h2><p>{data.overview[1]}</p><p>{data.overview[2]}</p></Reveal>
+      <Reveal className="inner-overview-copy"><span className="eyebrow">The MAS FASHIONS (A Unit of Zeal Groups.) approach</span><h2>{data.overview[0]}</h2><p>{data.overview[1]}</p><p>{data.overview[2]}</p></Reveal>
       <Reveal className="inner-overview-image" delay={.1}><img src={data.supportImage} loading="lazy" alt={`${data.eyebrow} supporting detail`} /></Reveal>
     </section>
 

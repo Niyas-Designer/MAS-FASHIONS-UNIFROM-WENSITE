@@ -62,7 +62,7 @@ export default function App() {
       <Header />
       <LandingPageTransition pathname={location.pathname} />
       <AnimatePresence mode="wait">
-        <Suspense fallback={<div className="page-loader">MAS FASHIONZ (A Unit of Zeal Groups.)</div>}>
+        <Suspense fallback={<div className="page-loader">MAS FASHIONS (A Unit of Zeal Groups.)</div>}>
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
             <Route path="/collections/:slug?" element={<Collection />} />
